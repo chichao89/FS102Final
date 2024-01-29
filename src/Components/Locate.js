@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import {MapContainer, TileLayer, Marker, Popup} from 'react-leaflet'
+//import {MapContainer, TileLayer, Marker, Popup} from 'react-leaflet'
 //import { Map, GoogleApiWrapper } from 'google-maps-react';
 
 
@@ -154,7 +154,7 @@ class Locate extends Component {
                 <Col>
                 <div><p>{dayName}: {this.state.weatherData.temp}°C, {this.state.weatherData.description}, <img src={`http://openweathermap.org/img/wn/${this.state.weatherData.icon}.png`} alt="weathericon"/></p></div>
                 <section>
-                <MapContainer center={[1.34, 103.85]} zoom={12} scrollWheelZoom={false}>
+                {/*<MapContainer center={[1.34, 103.85]} zoom={12} scrollWheelZoom={false}>
                     <TileLayer
                         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -180,7 +180,7 @@ class Locate extends Component {
                             <p>Contact us at +65 6225 5536</p>
                             </Popup>
                         </Marker>
-                        </MapContainer>
+        </MapContainer>*/}
                 </section>
                 </Col>
                 </Row>
