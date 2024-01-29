@@ -9,7 +9,6 @@
     "bootstrap": "^4.5.3",
     "dotenv": "^8.2.0",
     "env-cmd": "^10.1.0",
-    "google-maps-react": "^2.0.6",
     "leaflet": "^1.7.1",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.0",
